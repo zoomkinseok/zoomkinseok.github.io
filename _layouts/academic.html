@@ -12,6 +12,11 @@
     <a class="skip-link" href="#main-content">Skip to content</a>
     <div class="site-shell">
       <aside class="profile" aria-label="Profile and contact">
+        {% if site.author.avatar %}
+        <div class="profile-photo">
+          <img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="Portrait of {{ site.author.name | escape }}" width="1206" height="787" decoding="async">
+        </div>
+        {% endif %}
         <h1><a href="{{ '/' | relative_url }}">{{ site.author.name | escape }}</a></h1>
         <p class="profile-role">{{ site.author.bio | escape }}</p>
         <p class="profile-affiliation">Department of Computer Science<br>and Engineering<br>{{ site.author.employer | escape }}</p>
