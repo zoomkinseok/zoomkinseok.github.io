@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="{{ site.locale | default: 'en-US' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% unless page.permalink == '/' %}{{ page.title | escape }} · {% endunless %}{{ site.title | escape }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="site-shell">
+      <aside class="profile" aria-label="Profile and contact">
+        <h1><a href="{{ '/' | relative_url }}">{{ site.author.name | escape }}</a></h1>
+        <p class="profile-role">{{ site.author.bio | escape }}</p>
+        <p class="profile-affiliation">Department of Computer Science<br>and Engineering<br>{{ site.author.employer | escape }}</p>
+        <p class="profile-lab"><a href="{{ site.author.lab_url }}">{{ site.author.lab | escape }}</a></p>
+        <div class="profile-contact">
+          <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+          <a href="mailto:{{ site.author.academic_email }}">{{ site.author.academic_email }}</a>
+        </div>
+        <div class="profile-links">
+          <a href="{{ site.author.googlescholar | escape }}">Google Scholar</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+        </div>
+      </aside>
+      <main id="main-content" class="main-content">
+        <nav class="site-nav" aria-label="Main navigation">
+          {% for item in site.data.navigation.main %}
+          <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+          {% endfor %}
+        </nav>
+        {{ content }}
+        <footer class="site-footer">
+          <span>© {{ site.time | date: '%Y' }} {{ site.author.name | escape }}</span>
+          <span>Built with <a href="https://github.com/academicpages/academicpages.github.io">Academic Pages</a>.</span>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Minseok Joo"
 title_separator          : "-"
 name                     : &name "Minseok Joo"
-description              : &description "Minseok Joo's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Minseok Joo — video generation, video world models, and 3D vision at Korea University."
 url                      : "https://zoomkinseok.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,14 +23,17 @@ repository               : "zoomkinseok/zoomkinseok.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : # Add a profile photo when available
   name             : "Minseok Joo"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Combined M.S./Ph.D. Student"
+  location         :
+  employer         : "Korea University"
+  lab              : "Machine Learning and Vision Lab"
+  lab_url          : "https://mlvlab.github.io/#/home"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "zoomin2696@gmail.com"
+  academic_email   : "wlgkcjf87@korea.ac.kr"
 
   # Academic websites
   academia         : # URL
@@ -41,7 +44,7 @@ author:
   orcid            : # Not public
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -51,13 +54,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "zoomkinseok"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
