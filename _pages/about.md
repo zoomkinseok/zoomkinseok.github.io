@@ -2,7 +2,7 @@
 layout: academic
 permalink: /
 title: "About"
-description: "Minseok Joo is a combined M.S./Ph.D. student at Korea University, researching video generation, video world models, and 3D vision."
+description: "Minseok Joo is an M.S.-Ph.D. Integrated student at Korea University, interested in generative AI, video world models, video generation, and 3D vision."
 redirect_from:
   - /about/
   - /about.html
@@ -10,8 +10,9 @@ redirect_from:
 
 <section id="about" class="about" aria-labelledby="about-heading">
   <h2 id="about-heading">About Me</h2>
-  <p>I am a combined M.S./Ph.D. student in the Department of Computer Science and Engineering at Korea University and a member of the <a href="https://mlvlab.github.io/#/home">Machine Learning and Vision (MLV) Lab</a>. I received my B.S. in Biomedical Engineering from Korea University.</p>
-  <p>My research interests include <strong>video generation</strong>, <strong>video world models</strong>, and <strong>3D vision</strong>.</p>
+  <p>I am an M.S.-Ph.D. Integrated student at Korea University, advised by <a href="https://mlv.korea.edu/people">Prof. Hyunwoo J. Kim</a> in the <a href="https://mlvlab.github.io/#/home">Machine Learning and Vision (MLV) Lab</a>.</p>
+  <p>My research interests lie in <strong>generative AI</strong>, particularly <strong>video world models</strong> and <strong>video generation</strong> that capture the dynamics of the real world. I am also interested in <strong>3D vision</strong>.</p>
+  <p>If you are interested in collaborating or discussing research ideas, please feel free to <a href="mailto:{{ site.author.email }}">get in touch</a>.</p>
 </section>
 
 <section id="publications" aria-labelledby="publications-heading">

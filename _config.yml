@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Minseok Joo"
 title_separator          : "-"
 name                     : &name "Minseok Joo"
-description              : &description "Minseok Joo — video generation, video world models, and 3D vision at Korea University."
+description              : &description "Minseok Joo — generative AI, video world models, video generation, and 3D vision at Korea University."
 url                      : "https://zoomkinseok.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "minseok-joo.webp"
   name             : "Minseok Joo"
   pronouns         : # example: "she/her"  
-  bio              : "Combined M.S./Ph.D. Student"
+  bio              : "M.S.-Ph.D. Integrated Student"
   location         :
   employer         : "Korea University"
   lab              : "Machine Learning and Vision Lab"
