@@ -6,6 +6,9 @@
     <title>{% unless page.permalink == '/' %}{{ page.title | escape }} · {% endunless %}{{ site.title | escape }}</title>
     <meta name="description" content="{{ page.description | default: site.description | escape }}">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}?v=mj-1" sizes="16x16 32x32 48x48">
+    <link rel="icon" type="image/png" href="{{ '/images/minseok-joo-icon-32.png' | relative_url }}?v=mj-1" sizes="32x32">
+    <link rel="icon" type="image/svg+xml" href="{{ '/images/minseok-joo-icon.svg' | relative_url }}?v=mj-1" sizes="any">
     <link rel="stylesheet" href="{{ '/assets/css/fontawesome.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   </head>

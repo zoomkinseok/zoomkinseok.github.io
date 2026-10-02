@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Minseok Joo — MJ</title>
+  <rect width="64" height="64" rx="14" fill="#235a83"/>
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M11 45V19l10.5 15.5L32 19v26"/>
+    <path d="M42 19h12v18c0 5.5-3 9-8 9-2.8 0-5-1.1-6.5-3.1"/>
+  </g>
+</svg>
