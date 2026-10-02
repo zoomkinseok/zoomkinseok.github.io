@@ -27,13 +27,13 @@ author:
   name             : "Minseok Joo"
   pronouns         : # example: "she/her"  
   bio              : "M.S.-Ph.D. Integrated Student"
-  location         :
+  location         : "Seoul"
   employer         : "Korea University"
   lab              : "Machine Learning and Vision Lab"
   lab_url          : "https://mlvlab.github.io/#/home"
   uri              : # URL
-  email            : "zoomin2696@gmail.com"
-  academic_email   : "wlgkcjf87@korea.ac.kr"
+  email            : "wlgkcjf87@korea.ac.kr"
+  email_display    : "wlgkcjf87 [at] korea.ac.kr"
 
   # Academic websites
   academia         : # URL
