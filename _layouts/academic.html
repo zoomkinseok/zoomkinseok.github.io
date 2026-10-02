@@ -29,6 +29,12 @@
         <nav class="profile-links" aria-label="Academic and social profiles">
           <a href="{{ site.author.googlescholar | escape }}" aria-label="Google Scholar" title="Google Scholar"><i class="fa-brands fa-google-scholar" aria-hidden="true"></i></a>
           <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+          {% if site.author.linkedin %}
+          <a href="https://www.linkedin.com/in/{{ site.author.linkedin | escape }}/" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+          {% endif %}
+          {% if site.author.twitter %}
+          <a href="https://x.com/{{ site.author.twitter | escape }}" aria-label="X" title="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+          {% endif %}
         </nav>
       </aside>
       <main id="main-content" class="main-content">
