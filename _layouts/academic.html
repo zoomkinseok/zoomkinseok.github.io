@@ -14,7 +14,7 @@
       <aside class="profile" aria-label="Profile and contact">
         {% if site.author.avatar %}
         <div class="profile-photo">
-          <img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="Portrait of {{ site.author.name | escape }}" width="1206" height="787" decoding="async">
+          <img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="Portrait of {{ site.author.name | escape }}" width="640" height="907" decoding="async">
         </div>
         {% endif %}
         <h1><a href="{{ '/' | relative_url }}">{{ site.author.name | escape }}</a></h1>

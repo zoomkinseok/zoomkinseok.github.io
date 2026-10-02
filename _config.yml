@@ -23,7 +23,7 @@ repository               : "zoomkinseok/zoomkinseok.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "minseok-joo.jpg"
+  avatar           : "minseok-joo.webp"
   name             : "Minseok Joo"
   pronouns         : # example: "she/her"  
   bio              : "Combined M.S./Ph.D. Student"
