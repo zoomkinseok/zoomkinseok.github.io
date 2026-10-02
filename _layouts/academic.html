@@ -38,11 +38,6 @@
         </nav>
       </aside>
       <main id="main-content" class="main-content">
-        <nav class="site-nav" aria-label="Main navigation">
-          {% for item in site.data.navigation.main %}
-          <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
-          {% endfor %}
-        </nav>
         {{ content }}
         <footer class="site-footer">
           <span>© {{ site.time | date: '%Y' }} {{ site.author.name | escape }}</span>

@@ -47,9 +47,6 @@ p { margin: 0 0 1em; }
 .profile-links a:hover, .profile-links a:focus-visible { color: var(--link); background: #f0f4f7; text-decoration: none; }
 .profile-links .fa-brands { font-size: 24px; line-height: 1; }
 .main-content { min-width: 0; }
-.site-nav { display: flex; gap: 27px; border-bottom: 1px solid var(--line); padding-bottom: 14px; margin: 0 0 34px; font-size: 14px; }
-.site-nav a { color: var(--muted); }
-.site-nav a:hover, .site-nav a:focus-visible { color: var(--link); }
 section { scroll-margin-top: 28px; }
 h2 { font-family: Georgia, "Times New Roman", serif; font-size: 27px; font-weight: 500; letter-spacing: -.3px; line-height: 1.3; margin: 0 0 20px; color: #20262d; }
 .about { margin-bottom: 45px; }
@@ -87,7 +84,6 @@ h2 { font-family: Georgia, "Times New Roman", serif; font-size: 27px; font-weigh
   .profile-lab { margin-bottom: 12px; }
   .profile-contact { display: flex; flex-wrap: wrap; gap: 4px 18px; }
   .profile-links { margin-top: 10px; }
-  .site-nav { margin-bottom: 29px; }
   .publication { grid-template-columns: 155px minmax(0, 1fr); }
   .publication-thumbnail { width: 155px; height: 110px; }
 }
