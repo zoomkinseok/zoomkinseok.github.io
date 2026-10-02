@@ -32,8 +32,8 @@ p { margin: 0 0 1em; }
 }
 .profile { align-self: start; position: sticky; top: 52px; padding-top: 2px; font-size: 14px; }
 .profile-photo { position: relative; width: 200px; max-width: 100%; aspect-ratio: 4 / 5; margin-bottom: 24px; overflow: hidden; border-radius: 6px; background: #f3f4f6; }
-/* Keep the original face scale, framing slightly higher to show more background. */
-.profile-photo img { display: block; position: absolute; width: 335%; max-width: none; height: auto; left: -114%; top: -48%; }
+/* Match the face scale and background framing in the supplied portrait reference. */
+.profile-photo img { display: block; position: absolute; width: 349%; max-width: none; height: auto; left: -111.8%; top: -48.7%; }
 .profile h1 { margin: 0 0 17px; font-family: Georgia, "Times New Roman", serif; font-size: 32px; font-weight: 500; line-height: 1.2; letter-spacing: -.7px; }
 .profile h1 a { color: #20262d; }
 .profile h1 a:hover { text-decoration: none; }
