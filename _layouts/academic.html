@@ -38,6 +38,9 @@
           {% if site.author.twitter %}
           <a href="https://x.com/{{ site.author.twitter | escape }}" aria-label="X" title="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
           {% endif %}
+          {% if site.author.cv_url %}
+          <a href="{{ site.author.cv_url | relative_url }}" target="_blank" rel="noopener" aria-label="CV (PDF, opens in a new tab)" title="CV (PDF)"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i></a>
+          {% endif %}
         </nav>
       </aside>
       <main id="main-content" class="main-content">
