@@ -25,10 +25,11 @@ thumbnail_width: 478
 thumbnail_height: 530
 thumbnail_source: "https://openaccess.thecvf.com/content/ICCV2023/papers/Kim_Semantic-Aware_Implicit_Template_Learning_via_Part_Deformation_Consistency_ICCV_2023_paper.pdf"
 thumbnail_page: 1
+code_url: "https://github.com/mlvlab/PDC"
 ---
 
 Sihyeon Kim, **Minseok Joo**, Jaewon Lee, Juyeon Ko, Juhan Cha, Hyunwoo J. Kim
 
 ICCV 2023.
 
-[Paper](https://arxiv.org/abs/2308.11916) · [PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Kim_Semantic-Aware_Implicit_Template_Learning_via_Part_Deformation_Consistency_ICCV_2023_paper.pdf)
+[Paper](https://arxiv.org/abs/2308.11916) · [PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Kim_Semantic-Aware_Implicit_Template_Learning_via_Part_Deformation_Consistency_ICCV_2023_paper.pdf) · [Code](https://github.com/mlvlab/PDC)

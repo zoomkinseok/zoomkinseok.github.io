@@ -11,6 +11,7 @@
       <p class="publication-venue"><span class="venue-badge{% if publication.category == 'preprints' %} venue-badge-preprint{% endif %}">{{ publication.venue_label | escape }}</span></p>
       <div class="publication-links">
         <a href="{{ publication.paperurl }}" aria-label="PDF: {{ publication.title | escape }}">PDF</a>
+        {% if publication.code_url %}<a href="{{ publication.code_url }}" aria-label="Code: {{ publication.title | escape }}">Code</a>{% endif %}
         {% if publication.project_url %}<a href="{{ publication.project_url }}" aria-label="Project: {{ publication.title | escape }}">Project</a>{% endif %}
         {% if publication.equal_contributors %}<span class="contribution-note">* Equal contribution</span>{% endif %}
       </div>

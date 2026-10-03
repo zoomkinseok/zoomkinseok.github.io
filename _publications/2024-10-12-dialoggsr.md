@@ -23,10 +23,11 @@ thumbnail_width: 900
 thumbnail_height: 394
 thumbnail_source: "https://aclanthology.org/2024.emnlp-main.1179.pdf"
 thumbnail_page: 3
+code_url: "https://github.com/mlvlab/DialogGSR"
 ---
 
 Jinyoung Park, **Minseok Joo**, Joo-Kyung Kim, Hyunwoo J. Kim
 
 EMNLP 2024.
 
-[Paper](https://aclanthology.org/2024.emnlp-main.1179/) · [PDF](https://aclanthology.org/2024.emnlp-main.1179.pdf)
+[Paper](https://aclanthology.org/2024.emnlp-main.1179/) · [PDF](https://aclanthology.org/2024.emnlp-main.1179.pdf) · [Code](https://github.com/mlvlab/DialogGSR)
