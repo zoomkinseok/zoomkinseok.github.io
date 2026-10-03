@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" href="{{ '/images/minseok-joo-icon-32.png' | relative_url }}?v=mj-2" sizes="32x32">
     <link rel="icon" type="image/svg+xml" href="{{ '/images/minseok-joo-icon.svg' | relative_url }}?v=mj-2" sizes="any">
     <link rel="stylesheet" href="{{ '/assets/css/fontawesome.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   </head>
   <body id="top">
@@ -30,6 +31,9 @@
           <a href="mailto:{{ site.author.email }}">{{ site.author.email_display | escape }}</a>
         </div>
         <nav class="profile-links" aria-label="Academic and social profiles">
+          {% if site.author.cv_url %}
+          <a href="{{ site.author.cv_url | relative_url }}" target="_blank" rel="noopener" aria-label="CV (PDF, opens in a new tab)" title="CV (PDF)"><i class="ai ai-cv" aria-hidden="true"></i></a>
+          {% endif %}
           <a href="{{ site.author.googlescholar | escape }}" aria-label="Google Scholar" title="Google Scholar"><i class="fa-brands fa-google-scholar" aria-hidden="true"></i></a>
           <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
           {% if site.author.linkedin %}
@@ -37,9 +41,6 @@
           {% endif %}
           {% if site.author.twitter %}
           <a href="https://x.com/{{ site.author.twitter | escape }}" aria-label="X" title="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
-          {% endif %}
-          {% if site.author.cv_url %}
-          <a href="{{ site.author.cv_url | relative_url }}" target="_blank" rel="noopener" aria-label="CV (PDF, opens in a new tab)" title="CV (PDF)"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i></a>
           {% endif %}
         </nav>
       </aside>
