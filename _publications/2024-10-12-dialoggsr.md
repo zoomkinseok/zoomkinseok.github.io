@@ -17,10 +17,10 @@ metadata_sources:
   - "https://aclanthology.org/2024.emnlp-main.1179/"
   - "https://arxiv.org/abs/2410.09350"
 venue_label: "EMNLP · 2024"
-thumbnail: "/images/publications/dialoggsr.png"
+thumbnail: "/images/publications/dialoggsr.webp"
 thumbnail_alt: "Knowledge graph subgraph retrieval and dialogue generation overview."
-thumbnail_width: 900
-thumbnail_height: 394
+thumbnail_width: 1978
+thumbnail_height: 852
 thumbnail_source: "https://aclanthology.org/2024.emnlp-main.1179.pdf"
 thumbnail_page: 3
 code_url: "https://github.com/mlvlab/DialogGSR"

@@ -17,10 +17,10 @@ metadata_sources:
   - "https://proceedings.neurips.cc/paper_files/paper/2025/hash/7a67d9390e62237fb90986c48d12ff79-Abstract-Conference.html"
   - "https://arxiv.org/abs/2510.21167"
 venue_label: "NeurIPS · 2025"
-thumbnail: "/images/publications/blockwise-flow-matching.png"
+thumbnail: "/images/publications/blockwise-flow-matching.webp"
 thumbnail_alt: "Blockwise flow matching architecture and generation efficiency comparison."
-thumbnail_width: 800
-thumbnail_height: 272
+thumbnail_width: 1964
+thumbnail_height: 675
 thumbnail_source: "https://arxiv.org/pdf/2510.21167"
 thumbnail_page: 2
 code_url: "https://github.com/mlvlab/Blockwise-Flow-Matching"

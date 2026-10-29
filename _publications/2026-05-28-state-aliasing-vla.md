@@ -18,10 +18,10 @@ authors:
 metadata_sources:
   - "https://arxiv.org/abs/2605.29577"
 venue_label: "arXiv preprint · 2026"
-thumbnail: "/images/publications/state-aliasing-vla.png"
+thumbnail: "/images/publications/state-aliasing-vla.webp"
 thumbnail_alt: "Robot manipulation examples illustrating state aliasing and discrimination."
-thumbnail_width: 794
-thumbnail_height: 298
+thumbnail_width: 1935
+thumbnail_height: 679
 thumbnail_source: "https://arxiv.org/pdf/2605.29577"
 thumbnail_page: 2
 ---

@@ -31,9 +31,10 @@ metadata_sources:
 venue_label: "Frontiers in Oncology · 2025"
 thumbnail: "/images/publications/breast-cancer-radiomics.webp"
 thumbnail_alt: "MRI radiomics workflow from tumor segmentation and feature extraction to model evaluation."
-thumbnail_width: 800
-thumbnail_height: 639
-thumbnail_source: "https://www.frontiersin.org/files/Articles/1654508/xml-images/fonc-15-1654508-g003.webp"
+thumbnail_width: 1971
+thumbnail_height: 1576
+thumbnail_source: "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1654508/pdf"
+thumbnail_page: 7
 thumbnail_figure: 3
 thumbnail_license: "https://creativecommons.org/licenses/by/4.0/"
 ---
