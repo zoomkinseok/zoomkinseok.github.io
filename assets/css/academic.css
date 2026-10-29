@@ -77,9 +77,11 @@ h2 { font-family: Georgia, "Times New Roman", serif; font-size: 27px; font-weigh
 .publication h3 { margin: 0 0 7px; font-size: 15.5px; line-height: 1.45; font-weight: 650; overflow-wrap: anywhere; }
 .publication h3 a { color: #1f252c; }
 .publication h3 a:hover { color: var(--link); }
-.publication-authors { margin: 0 0 10px; font-size: 13px; line-height: 1.65; color: #59616b; }
+.publication-authors { margin: 0 0 2px; font-size: 13px; line-height: 1.65; color: #59616b; }
 .publication-authors strong { color: #30343a; font-weight: 650; }
 .publication-authors sup { font-size: 10px; }
+.publication-venue { margin: 0 0 10px; font-size: 13px; line-height: 1.6; color: #59616b; font-style: italic; }
+.publication-venue .venue-acronym { font-style: normal; font-weight: 700; }
 .publication-links { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; font-size: 12px; }
 .link-button { display: inline-flex; align-items: center; gap: 5px; padding: 2px 9px; border: 1px solid #cfdbe5; border-radius: 4px; color: var(--link); font-weight: 600; line-height: 1.6; }
 .link-button i { font-size: 11px; }

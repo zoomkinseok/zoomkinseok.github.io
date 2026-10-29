@@ -1,43 +1,56 @@
 # Venue badges shown on publication figures.
 # Key = first word of a publication's venue_label, lower-cased (e.g. "NeurIPS · 2025" -> neurips).
-# label: text in the badge. color: brand accent. logo: year-neutral mark. logos: year-specific marks.
+# label: text in the badge. full: name in the citation line, followed by the colored label in parentheses
+# (journal: true colors the full name instead).  color: brand accent. logo: year-neutral mark. logos: year-specific marks.
 # Logos are the official marks collected (with sources) in github.com/mlvlab/mlvlab.github.io/assets/venues/SOURCES.md.
 # Venues not listed here fall back to a neutral navy badge.
 neurips:
   label: "NeurIPS"
+  full: "Advances in Neural Information Processing Systems"
   color: "#68448B"
   logo: "/images/venues/neurips.svg"
 eccv:
   label: "ECCV"
+  full: "European Conference on Computer Vision"
   color: "#231F20"
   logos:
     "2026": "/images/venues/eccv-2026.svg"
 iccv:
   label: "ICCV"
+  full: "IEEE/CVF International Conference on Computer Vision"
   color: "#9E1E63"
   logos:
     "2025": "/images/venues/iccv-2025.png"
 cvpr:
   label: "CVPR"
+  full: "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
   color: "#36567C"
 iclr:
   label: "ICLR"
+  full: "International Conference on Learning Representations"
   color: "#387D25"
 icml:
   label: "ICML"
+  full: "International Conference on Machine Learning"
   color: "#2A419E"
 emnlp:
   label: "EMNLP"
+  full: "Conference on Empirical Methods in Natural Language Processing"
   color: "#D12632"
 acl:
   label: "ACL"
+  full: "Annual Meeting of the Association for Computational Linguistics"
   color: "#C51920"
 aaai:
   label: "AAAI"
+  full: "AAAI Conference on Artificial Intelligence"
   color: "#003973"
 frontiers:
   label: "Front. Oncol."
+  full: "Frontiers in Oncology"
+  journal: true
   color: "#2B6280"
 arxiv:
   label: "arXiv"
+  full: "arXiv preprint"
   preprint: true

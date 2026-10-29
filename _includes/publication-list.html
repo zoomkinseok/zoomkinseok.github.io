@@ -22,6 +22,7 @@
     <div class="publication-details">
       <h3><a href="{{ publication.paperurl }}">{{ publication.title | escape }}</a></h3>
       <p class="publication-authors">{% for author in publication.authors %}{% if author == site.author.name %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% if publication.equal_contributors contains author %}<sup>*</sup>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+      <p class="publication-venue">{% if venue.journal %}<strong class="venue-acronym" style="color: {{ venue.color }}">{{ venue.full | escape }}</strong>, {{ venue_year | escape }}{% elsif venue.preprint %}{{ venue.full | escape }}{% if publication.paperurl contains 'arxiv.org' %} arXiv:{{ publication.paperurl | split: '/' | last }}{% endif %}, {{ venue_year | escape }}{% elsif venue.full %}{{ venue.full | escape }} (<strong class="venue-acronym" style="color: {{ venue.color }}">{{ venue.label | escape }}</strong>), {{ venue_year | escape }}{% else %}{{ publication.venue_label | escape }}{% endif %}</p>
       <div class="publication-links">
         <a class="link-button" href="{{ publication.paperurl }}" aria-label="PDF: {{ publication.title | escape }}"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i>PDF</a>
         {% if publication.code_url %}<a class="link-button" href="{{ publication.code_url }}" aria-label="Code: {{ publication.title | escape }}"><i class="fa-brands fa-github" aria-hidden="true"></i>Code</a>{% endif %}
