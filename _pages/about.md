@@ -15,10 +15,30 @@ redirect_from:
   <p>Please feel free to <a href="mailto:{{ site.author.email }}">get in touch</a> about potential collaborations or research opportunities. You can also find my <a href="{{ site.author.cv_url | relative_url }}" target="_blank" rel="noopener" aria-label="CV (PDF, opens in a new tab)">CV</a> here.</p>
 </section>
 
+<section id="news" class="news" aria-labelledby="news-heading">
+  <h2 id="news-heading">News</h2>
+  <ul class="news-list">
+    {% for item in site.data.news %}
+    <li>
+      <span class="news-date">{% if item.date_label %}{{ item.date_label }}{% else %}{{ item.date | date: "%b %Y" }}{% endif %}</span>
+      <span class="news-text">{{ item.text }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
 <section id="publications" aria-labelledby="publications-heading">
   <div class="section-heading">
     <h2 id="publications-heading">Publications</h2>
     <a href="{{ site.author.googlescholar | escape }}">Google Scholar ↗</a>
   </div>
   {% include publication-list.html %}
+</section>
+
+<section id="service" class="service" aria-labelledby="service-heading">
+  <h2 id="service-heading">Academic Service</h2>
+  <dl class="service-list">
+    <dt>Conference Reviewer</dt>
+    <dd>CVPR 2026, ICML 2026, ECCV 2026, NeurIPS 2026, ICLR 2027</dd>
+  </dl>
 </section>

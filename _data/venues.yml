@@ -1,0 +1,43 @@
+# Venue badges shown on publication figures.
+# Key = first word of a publication's venue_label, lower-cased (e.g. "NeurIPS · 2025" -> neurips).
+# label: text in the badge. color: brand accent. logo: year-neutral mark. logos: year-specific marks.
+# Logos are the official marks collected (with sources) in github.com/mlvlab/mlvlab.github.io/assets/venues/SOURCES.md.
+# Venues not listed here fall back to a neutral navy badge.
+neurips:
+  label: "NeurIPS"
+  color: "#68448B"
+  logo: "/images/venues/neurips.svg"
+eccv:
+  label: "ECCV"
+  color: "#231F20"
+  logos:
+    "2026": "/images/venues/eccv-2026.svg"
+iccv:
+  label: "ICCV"
+  color: "#9E1E63"
+  logos:
+    "2025": "/images/venues/iccv-2025.png"
+cvpr:
+  label: "CVPR"
+  color: "#36567C"
+iclr:
+  label: "ICLR"
+  color: "#387D25"
+icml:
+  label: "ICML"
+  color: "#2A419E"
+emnlp:
+  label: "EMNLP"
+  color: "#D12632"
+acl:
+  label: "ACL"
+  color: "#C51920"
+aaai:
+  label: "AAAI"
+  color: "#003973"
+frontiers:
+  label: "Front. Oncol."
+  color: "#2B6280"
+arxiv:
+  label: "arXiv"
+  preprint: true

@@ -1,0 +1,12 @@
+# News items, newest first. `date` is shown as "Mon YYYY"; use `date_label` instead for free text (e.g. "2026").
+# Text may contain HTML links.
+- date: 2026-10-20
+  text: 'New preprint: <a href="https://arxiv.org/abs/2610.27712">RLSplat</a> on resource-linear budget control for feed-forward 3D Gaussian Splatting.'
+- date: 2026-09-24
+  text: 'Our first-author paper <a href="https://mlvlab.github.io/CovRAG/">Retrieve What''s Missing</a> on consistent long video generation is accepted to <strong>NeurIPS 2026</strong>.'
+- date_label: "2026"
+  text: 'Serving as a reviewer for <strong>CVPR 2026, ICML 2026, ECCV 2026, NeurIPS 2026</strong>, and <strong>ICLR 2027</strong>.'
+- date: 2026-06-17
+  text: '<a href="https://mlvlab.github.io/F4Splat/">F⁴Splat</a> on feed-forward 3D Gaussian Splatting is accepted to <strong>ECCV 2026</strong>.'
+- date: 2025-09-18
+  text: '<a href="https://arxiv.org/abs/2510.21167">Blockwise Flow Matching</a> is accepted to <strong>NeurIPS 2025</strong>.'
