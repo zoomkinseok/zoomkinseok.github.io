@@ -58,7 +58,16 @@ h2 { font-family: Georgia, "Times New Roman", serif; font-size: 27px; font-weigh
 .publication { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 26px; align-items: start; margin: 0 0 34px; }
 .publication-figure { position: relative; padding-top: 12px; }
 .publication-thumbnail { display: flex; justify-content: center; align-items: center; width: 220px; height: 145px; padding: 6px; background: #fff; border: 1px solid #e7ebef; border-radius: 6px; box-shadow: 0 3px 12px rgba(30, 49, 69, .12); }
+.publication-thumbnail { cursor: zoom-in; transition: box-shadow .15s, border-color .15s; }
+.publication-thumbnail:hover, .publication-thumbnail:focus-visible { border-color: #cfdbe5; box-shadow: 0 5px 16px rgba(30, 49, 69, .2); }
 .publication-thumbnail img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.figure-viewer { max-width: min(1100px, 94vw); max-height: 92vh; padding: 18px 18px 12px; border: 0; border-radius: 8px; background: #fff; box-shadow: 0 20px 60px rgba(15, 31, 56, .35); overflow: auto; }
+.figure-viewer::backdrop { background: rgba(20, 26, 33, .72); }
+.figure-viewer-image { display: block; width: min(1000px, calc(94vw - 36px)); max-height: calc(92vh - 90px); height: auto; object-fit: contain; margin: 0 auto; }
+.figure-viewer-caption { margin: 12px 34px 0 2px; font-size: 13.5px; line-height: 1.5; color: #30343a; font-weight: 600; }
+.figure-viewer-paper { margin-left: 6px; font-weight: 600; white-space: nowrap; }
+.figure-viewer-close { position: absolute; top: 6px; right: 8px; width: 34px; height: 34px; border: 0; border-radius: 50%; background: transparent; color: #4b535c; font-size: 26px; line-height: 1; cursor: pointer; }
+.figure-viewer-close:hover, .figure-viewer-close:focus-visible { background: #eef1f4; }
 /* Venue badge overlapping the figure's upper-left corner; colors come from _data/venues.yml. */
 .venue-ribbon { --venue-color: var(--link); position: absolute; top: 0; left: -6px; z-index: 1; display: inline-flex; align-items: center; gap: 5px; max-width: calc(100% + 6px); height: 24px; padding: 0 8px 0 6px; background: #fff; color: var(--venue-color); border-left: 3px solid var(--venue-color); border-radius: 2px; box-shadow: 0 1px 5px rgba(15, 31, 56, .18); font-size: 11.5px; font-weight: 700; line-height: 1; letter-spacing: .2px; white-space: nowrap; overflow: hidden; }
 .venue-ribbon .venue-logo { flex: none; width: auto; height: 14px; max-width: 54px; }
