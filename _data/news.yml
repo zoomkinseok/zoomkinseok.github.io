@@ -7,9 +7,9 @@
 - date: 2026-10-01
   text: 'Reviewer for <strong>ICLR 2027</strong>.'
 - date: 2026-09-29
-  text: 'New preprint: <a href="https://arxiv.org/abs/2609.38024">Retrieval-Augmented Skill Optimization</a> is on arXiv.'
+  text: 'New preprint: <a href="https://arxiv.org/abs/2609.38024">RASO</a> is on arXiv.'
 - date: 2026-09-24
-  text: '<a href="https://mlvlab.github.io/CovRAG/">Retrieve What''s Missing</a> (first author) accepted to <strong>NeurIPS 2026</strong>.'
+  text: '<a href="https://mlvlab.github.io/CovRAG/">CovRAG</a> (first author) accepted to <strong>NeurIPS 2026</strong>.'
 - date: 2026-06-17
   text: '<a href="https://mlvlab.github.io/F4Splat/">F⁴Splat</a> accepted to <strong>ECCV 2026</strong>.'
 - date: 2026-05-29
@@ -27,7 +27,7 @@
 - date: 2025-09-18
   text: '<a href="https://arxiv.org/abs/2510.21167">Blockwise Flow Matching</a> accepted to <strong>NeurIPS 2025</strong>.'
 - date: 2024-09-20
-  text: '<a href="https://aclanthology.org/2024.emnlp-main.1179/">Generative Subgraph Retrieval</a> accepted to <strong>EMNLP 2024</strong>.'
+  text: '<a href="https://aclanthology.org/2024.emnlp-main.1179/">DialogGSR</a> accepted to <strong>EMNLP 2024</strong>.'
 - date: 2024-07-27
   text: 'New preprint: <a href="https://arxiv.org/abs/2407.19156">MEFormer</a> (co-first author) is on arXiv.'
 - date: 2023-07-13
