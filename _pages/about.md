@@ -17,14 +17,22 @@ redirect_from:
 
 <section id="news" class="news" aria-labelledby="news-heading">
   <h2 id="news-heading">News</h2>
+  {% assign news_visible = 6 %}
   <ul class="news-list">
-    {% for item in site.data.news %}
-    <li>
-      <span class="news-date">{% if item.date_label %}{{ item.date_label }}{% else %}{{ item.date | date: "%b %Y" }}{% endif %}</span>
-      <span class="news-text">{{ item.text }}</span>
-    </li>
+    {% for item in site.data.news limit: news_visible %}
+    <li><span class="news-date">{% if item.date_label %}{{ item.date_label }}{% else %}{{ item.date | date: "%b %Y" }}{% endif %}</span><span class="news-text">{{ item.text }}</span></li>
     {% endfor %}
   </ul>
+  {% if site.data.news.size > news_visible %}
+  <details class="news-more">
+    <summary><span class="news-more-closed">Show older news ({{ site.data.news.size | minus: news_visible }})</span><span class="news-more-open">Hide older news</span></summary>
+    <ul class="news-list">
+      {% for item in site.data.news offset: news_visible %}
+      <li><span class="news-date">{% if item.date_label %}{{ item.date_label }}{% else %}{{ item.date | date: "%b %Y" }}{% endif %}</span><span class="news-text">{{ item.text }}</span></li>
+      {% endfor %}
+    </ul>
+  </details>
+  {% endif %}
 </section>
 
 <section id="publications" aria-labelledby="publications-heading">
