@@ -1,26 +1,21 @@
 # Venue badges shown on publication figures.
 # Key = first word of a publication's venue_label, lower-cased (e.g. "NeurIPS · 2025" -> neurips).
 # label: text in the badge. full: name in the citation line, followed by the colored label in parentheses
-# (journal: true colors the full name instead).  color: brand accent. logo: year-neutral mark. logos: year-specific marks.
-# Logos are the official marks collected (with sources) in github.com/mlvlab/mlvlab.github.io/assets/venues/SOURCES.md.
+# (journal: true colors the full name instead).  color: brand accent.
+# Badges show white text on the venue color (colors follow github.com/mlvlab/mlvlab.github.io/assets/venues/SOURCES.md).
 # Venues not listed here fall back to a neutral navy badge.
 neurips:
   label: "NeurIPS"
   full: "Advances in Neural Information Processing Systems"
   color: "#68448B"
-  logo: "/images/venues/neurips.svg"
 eccv:
   label: "ECCV"
   full: "European Conference on Computer Vision"
   color: "#231F20"
-  logos:
-    "2026": "/images/venues/eccv-2026.svg"
 iccv:
   label: "ICCV"
   full: "IEEE/CVF International Conference on Computer Vision"
   color: "#9E1E63"
-  logos:
-    "2025": "/images/venues/iccv-2025.png"
 cvpr:
   label: "CVPR"
   full: "IEEE/CVF Conference on Computer Vision and Pattern Recognition"

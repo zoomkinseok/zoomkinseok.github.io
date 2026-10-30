@@ -6,12 +6,9 @@
   {% assign venue_year = venue_parts | last %}
   {% assign venue_key = venue_name | split: ' ' | first | downcase %}
   {% assign venue = site.data.venues[venue_key] %}
-  {% assign venue_logo = nil %}
-  {% if venue.logo %}{% assign venue_logo = venue.logo %}{% elsif venue.logos %}{% assign venue_logo = venue.logos[venue_year] %}{% endif %}
   <li class="publication">
     <div class="publication-figure">
       <span class="venue-ribbon{% if publication.category == 'preprints' or venue.preprint %} venue-ribbon-preprint{% endif %}"{% if venue.color %} style="--venue-color: {{ venue.color }}"{% endif %}>
-        {% if venue_logo %}<img class="venue-logo" src="{{ venue_logo | relative_url }}" alt="" aria-hidden="true">{% endif %}
         <span class="venue-name">{% if venue.label %}{{ venue.label | escape }}{% else %}{{ venue_name | escape }}{% endif %}</span>
         <span class="venue-year">{{ venue_year | escape }}</span>
       </span>
