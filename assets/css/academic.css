@@ -55,6 +55,8 @@ h2 { font-family: Georgia, "Times New Roman", serif; font-size: 27px; font-weigh
 .section-heading h2 { margin: 0; }
 .section-heading > a { font-size: 13px; white-space: nowrap; }
 .publication-list { padding: 0; margin: 0; list-style: none; }
+.publication-group-title { margin: 6px 0 20px; padding-bottom: 6px; border-bottom: 1px solid var(--line); color: #20262d; font-size: 16px; font-weight: 650; letter-spacing: .1px; }
+.publication-list + .publication-group-title { margin-top: 12px; }
 .publication { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 26px; align-items: start; margin: 0 0 34px; }
 .publication-figure { position: relative; padding-top: 12px; }
 .publication-thumbnail { display: flex; justify-content: center; align-items: center; width: 220px; height: 145px; padding: 6px; background: #fff; border: 1px solid #e7ebef; border-radius: 6px; box-shadow: 0 3px 12px rgba(30, 49, 69, .12); }
@@ -73,9 +75,9 @@ h2 { font-family: Georgia, "Times New Roman", serif; font-size: 27px; font-weigh
 .venue-ribbon .venue-year { font-weight: 500; }
 .venue-ribbon-preprint { background: #edf0f4; color: #49566a; }
 .publication-details { min-width: 0; padding-top: 10px; }
-.publication h3 { margin: 0 0 7px; font-size: 15.5px; line-height: 1.45; font-weight: 650; overflow-wrap: anywhere; }
-.publication h3 a { color: #1f252c; }
-.publication h3 a:hover { color: var(--link); }
+.publication h4 { margin: 0 0 7px; font-size: 15.5px; line-height: 1.45; font-weight: 650; overflow-wrap: anywhere; }
+.publication h4 a { color: #1f252c; }
+.publication h4 a:hover { color: var(--link); }
 .publication-authors { margin: 0 0 2px; font-size: 13px; line-height: 1.65; color: #59616b; }
 .publication-authors strong { color: #30343a; font-weight: 650; }
 .publication-authors sup { font-size: 10px; }
@@ -139,7 +141,7 @@ h2 { font-family: Georgia, "Times New Roman", serif; font-size: 27px; font-weigh
   .publication-figure { max-width: 300px; margin: 0 0 12px 6px; }
   .publication-thumbnail { width: 100%; height: auto; aspect-ratio: 3 / 2; }
   .publication-details { padding-top: 0; }
-  .publication h3 { font-size: 15px; }
+  .publication h4 { font-size: 15px; }
   .about, .news { margin-bottom: 36px; }
   .news-list li { grid-template-columns: 1fr; gap: 0; }
   .service-list { grid-template-columns: 1fr; gap: 2px; }

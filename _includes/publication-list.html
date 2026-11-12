@@ -1,5 +1,13 @@
-{% assign publications = site.publications | sort: 'date' | reverse %}
-<ol class="publication-list" aria-label="Publications, newest first">
+{% assign all_publications = site.publications | sort: 'date' | reverse %}
+{% comment %} Groups follow the CV: category key (front matter) : heading. {% endcomment %}
+{% assign publication_groups = "conferences:Conference Papers,journals:Journal Articles,preprints:Preprints" | split: "," %}
+{% for publication_group in publication_groups %}
+{% assign group_key = publication_group | split: ":" | first %}
+{% assign group_title = publication_group | split: ":" | last %}
+{% assign publications = all_publications | where: "category", group_key %}
+{% if publications.size > 0 %}
+<h3 class="publication-group-title" id="{{ group_key }}">{{ group_title }}</h3>
+<ol class="publication-list" aria-label="{{ group_title }}, newest first">
   {% for publication in publications %}
   {% assign venue_parts = publication.venue_label | split: ' · ' %}
   {% assign venue_name = venue_parts | first %}
@@ -17,7 +25,7 @@
       </a>
     </div>
     <div class="publication-details">
-      <h3><a href="{{ publication.paperurl }}">{{ publication.title | escape }}</a></h3>
+      <h4><a href="{{ publication.paperurl }}">{{ publication.title | escape }}</a></h4>
       <p class="publication-authors">{% for author in publication.authors %}{% if author == site.author.name %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% if publication.equal_contributors contains author %}<sup>*</sup>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
       <p class="publication-venue">{% if venue.journal %}<strong class="venue-acronym" style="color: {{ venue.color }}">{{ venue.full | escape }}</strong>, {{ venue_year | escape }}{% elsif venue.preprint %}{{ venue.full | escape }}{% if publication.paperurl contains 'arxiv.org' %} arXiv:{{ publication.paperurl | split: '/' | last }}{% endif %}, {{ venue_year | escape }}{% elsif venue.full %}{{ venue.full | escape }} (<strong class="venue-acronym" style="color: {{ venue.color }}">{{ venue.label | escape }}</strong>), {{ venue_year | escape }}{% else %}{{ publication.venue_label | escape }}{% endif %}</p>
       <div class="publication-links">
@@ -30,6 +38,8 @@
   </li>
   {% endfor %}
 </ol>
+{% endif %}
+{% endfor %}
 
 <dialog class="figure-viewer" aria-label="Enlarged figure">
   <button class="figure-viewer-close" type="button" aria-label="Close">&times;</button>
