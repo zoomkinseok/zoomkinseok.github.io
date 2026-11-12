@@ -2,7 +2,7 @@
 title: "Semantic-Aware Implicit Template Learning via Part Deformation Consistency"
 collection: publications
 category: conferences
-topics: ["3D Vision"]
+topics: ["3D Vision", "Neural Fields"]
 permalink: /publication/semantic-aware-implicit-template/
 excerpt: "Sihyeon Kim, **Minseok Joo**, Jaewon Lee, Juyeon Ko, Juhan Cha, Hyunwoo J. Kim"
 # Initial public version date, used for ordering; the page displays the year.

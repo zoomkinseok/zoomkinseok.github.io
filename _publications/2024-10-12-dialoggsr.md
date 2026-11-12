@@ -2,7 +2,7 @@
 title: "Generative Subgraph Retrieval for Knowledge Graph–Grounded Dialog Generation"
 collection: publications
 category: conferences
-topics: ["NLP"]
+topics: ["NLP", "LLM"]
 permalink: /publication/dialoggsr/
 excerpt: "Jinyoung Park, **Minseok Joo**, Joo-Kyung Kim, Hyunwoo J. Kim"
 # Initial public version date, used for ordering; the page displays the year.
