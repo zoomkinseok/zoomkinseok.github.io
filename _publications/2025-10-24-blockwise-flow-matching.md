@@ -2,6 +2,7 @@
 title: "Blockwise Flow Matching: Improving Flow Matching Models For Efficient High-Quality Generation"
 collection: publications
 category: conferences
+topics: ["Generative Models"]
 permalink: /publication/blockwise-flow-matching/
 excerpt: "Dogyun Park, Taehoon Lee, **Minseok Joo**, Hyunwoo J. Kim"
 # Initial public version date, used for ordering; the page displays the year.

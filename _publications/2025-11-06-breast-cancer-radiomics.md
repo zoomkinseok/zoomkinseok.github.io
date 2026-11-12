@@ -2,6 +2,7 @@
 title: "Optimized prediction of breast cancer tumor microenvironment using MRI-based intratumoral and peritumoral radiomics: a prospective study"
 collection: publications
 category: journals
+topics: ["Medical AI"]
 permalink: /publication/breast-cancer-radiomics/
 excerpt: "Eun Sil Kim, Sungwon Ham, Bo Kyoung Seo, Ji Young Lee, Woong Sun, Minkyu Jeon, **Minseok Joo**, Seonghoon Park, Shuncong Wang, Boram Lee, Hye Yoon Lee, Min Sun Bae, Kyu Ran Cho, Ok Hee Woo, Sung Eun Song, Soo-Yeon Kim"
 date: 2025-11-06

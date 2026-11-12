@@ -2,6 +2,7 @@
 title: "Mitigating State Aliasing in Vision-Language-Action Models via Inverse Dynamics Learning"
 collection: publications
 category: preprints
+topics: ["Robotics (VLA)"]
 permalink: /publication/state-aliasing-vla/
 excerpt: "Kyujin Lee, Injae Kim, Jihwan Park, Yejun Ju, **Minseok Joo**, Hyunwoo J. Kim"
 # Initial public version date, used for ordering; the page displays the year.
