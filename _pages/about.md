@@ -2,7 +2,7 @@
 layout: academic
 permalink: /
 title: "About"
-description: "Minseok Joo is an M.S.-Ph.D. Integrated student at Korea University, interested in generative AI, video world models, video generation, and 3D vision."
+description: "Minseok Joo is an M.S.-Ph.D. Integrated student at Korea University, interested in generative and geometric models for understanding the physical world, with a focus on video world models, video generation, and 3D vision."
 redirect_from:
   - /about/
   - /about.html
@@ -11,7 +11,7 @@ redirect_from:
 <section id="about" class="about" aria-labelledby="about-heading">
   <h2 id="about-heading">About Me</h2>
   <p>I am an M.S.-Ph.D. Integrated student at Korea University, advised by <a href="https://scholar.google.com/citations?hl=en&amp;user=LfBoJt8AAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Prof. Hyunwoo J. Kim</a> in the <a href="https://mlvlab.github.io/#/home">Machine Learning and Vision (MLV) Lab</a>.</p>
-  <p>I'm interested in <strong>generative AI</strong> for modeling the structure and dynamics of the real world, with a particular focus on <strong>video world models</strong>, <strong>video generation</strong>, and <strong>3D vision</strong>.</p>
+  <p>I'm interested in generative and geometric models for understanding the physical world, with a particular focus on <strong>video world models</strong>, <strong>video generation</strong>, and <strong>3D vision</strong>.</p>
   <p>Please feel free to <a href="mailto:{{ site.author.email }}">get in touch</a> about potential collaborations or research opportunities. You can also find my <a href="{{ site.author.cv_url | relative_url }}" target="_blank" rel="noopener" aria-label="CV (PDF, opens in a new tab)">CV</a> here.</p>
 </section>
 
